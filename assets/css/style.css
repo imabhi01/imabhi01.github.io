@@ -910,6 +910,15 @@ section {
   color: #0e2442;
   content: "/";
 }
+
+.portfolio-wrap {
+  max-height: 385px;
+}
+
+.portfolio-wrap.shadow-sm {
+  border-radius: 10px;
+}
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
@@ -950,5 +959,11 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 95%;
   }
 }
