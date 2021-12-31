@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillBars from './SkillBars'
 
 export default function MainSection() {
     return (
@@ -6,12 +7,11 @@ export default function MainSection() {
             <main id="main">
                 <section id="about" className="about">
                     <div className="container">
-
                         <div className="section-title">
-                        <h2>About</h2>
-                        <p>Full stack web developer with @php, @laravel, @vuejs, @reactjs, @nodejs, @docker, @mongodb, @mysql. Besides programming, I love to listen to music, play guitar <span className="iconify" data-icon="fxemoji:guitar"></span>, play games <span className="iconify" data-icon="emojione-v1:video-game"></span>
-                            and read books and blogs <span className="iconify" data-icon="noto-v1:books"></span>
-                        </p>
+                            <h2>About</h2>
+                            <p>Full stack web developer with @php, @laravel, @vuejs, @reactjs, @nodejs, @docker, @mongodb, @mysql. Besides programming, I love to listen to music, play guitar <span className="iconify" data-icon="fxemoji:guitar"></span>, play games <span className="iconify" data-icon="emojione-v1:video-game"></span>
+                                and read books and blogs <span className="iconify" data-icon="noto-v1:books"></span>
+                            </p>
                         </div>
 
                         <div className="row">
@@ -40,67 +40,7 @@ export default function MainSection() {
                 </section>
 
                 <section id="skills" className="skills section-bg">
-                    <div className="container">
-
-                        <div className="section-title">
-                        <h2>Skills</h2>
-                        </div>
-
-                        <div className="row skills-content">
-
-                        <div className="col-lg-6" data-aos="fade-up">
-
-                            <div className="progress">
-                            <span className="skill">HTML <i className="val">100%</i></span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            </div>
-
-                            <div className="progress">
-                            <span className="skill">CSS <i className="val">90%</i></span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            </div>
-
-                            <div className="progress">
-                            <span className="skill">JavaScript <i className="val">85%</i></span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            </div>
-
-                        </div>
-
-                        <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-                            <div className="progress">
-                            <span className="skill">PHP <i className="val">95%</i></span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            </div>
-
-                            <div className="progress">
-                            <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            </div>
-
-                            <div className="progress">
-                            <span className="skill">Photoshop <i className="val">55%</i></span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            </div>
-
-                        </div>
-
-                        </div>
-
-                    </div>
+                    <SkillBars />
                 </section>
 
                 <section id="resume" className="resume">
@@ -309,70 +249,72 @@ export default function MainSection() {
                 </section>
 
                 <section id="contact" className="contact">
-                <div className="container">
+                    <div className="container">
 
-                    <div className="section-title">
-                    <h2>Contact</h2>
-                    <p>Please let me know if you would like to contact me or else you can find my email and phone number below.</p>
-                    </div>
-
-                    <div className="row" data-aos="fade-in">
-
-                    <div className="col-lg-5 d-flex align-items-stretch">
-                        <div className="info">
-                        <div className="address">
-                            <i className="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>Narayantar, Kathmandu, Nepal</p>
+                        <div className="section-title">
+                            <h2>Contact</h2>
+                            <p>Please let me know if you would like to contact me or else you can find my email and phone number below.</p>
                         </div>
 
-                        <div className="email">
-                            <i className="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>iamdev.abhishek@gmail.com</p>
-                        </div>
+                        <div className="row" data-aos="fade-in">
 
-                        <div className="phone">
-                            <i className="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+977-9842036673</p>
-                        </div>
-                        <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2167.892016509862!2d85.37819505321234!3d27.72484870997885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bbbefe2da35%3A0x3196e9ef7a7daf80!2sMnemonic%20Modern%20Academy!5e0!3m2!1sen!2snp!4v1640665830602!5m2!1sen!2snp" style={{ border:'0', width: '100%', height: '290px' }} loading="lazy"></iframe>
-                        </div>
-                    </div>
+                        <div className="col-lg-12 d-flex align-items-stretch">
+                            <div className="info">
+                                <div className="address">
+                                    <i className="bi bi-geo-alt"></i>
+                                    <h4>Location:</h4>
+                                    <p>Narayantar, Kathmandu, Nepal</p>
+                                </div>
 
-                    <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="/#" method="post" className="php-email-form">
-                        <div className="row">
-                            <div className="form-group col-md-6">
-                            <label htmlFor="name">Your Name</label>
-                            <input type="text" name="name" className="form-control" id="name" required />
+                                <div className="email">
+                                    <i className="bi bi-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>iamdev.abhishek@gmail.com</p>
+                                </div>
+
+                                <div className="phone">
+                                    <i className="bi bi-phone"></i>
+                                    <h4>Call:</h4>
+                                    <p>+977-9842036673</p>
+                                </div>
                             </div>
-                            <div className="form-group col-md-6">
-                            <label htmlFor="name">Your Email</label>
-                            <input type="email" className="form-control" name="email" id="email" required />
+                            <div className='info'>
+                                <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2167.892016509862!2d85.37819505321234!3d27.72484870997885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bbbefe2da35%3A0x3196e9ef7a7daf80!2sMnemonic%20Modern%20Academy!5e0!3m2!1sen!2snp!4v1640665830602!5m2!1sen!2snp" style={{ border:'0', width: '100%', height: '290px' }} loading="lazy"></iframe>
                             </div>
                         </div>
-                        <div className="form-group">
-                            <label htmlFor="name">Subject</label>
-                            <input type="text" className="form-control" name="subject" id="subject" required />
+
+                        {/* <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                            <form action="/#" method="post" className="php-email-form">
+                            <div className="row">
+                                <div className="form-group col-md-6">
+                                <label htmlFor="name">Your Name</label>
+                                <input type="text" name="name" className="form-control" id="name" required />
+                                </div>
+                                <div className="form-group col-md-6">
+                                <label htmlFor="name">Your Email</label>
+                                <input type="email" className="form-control" name="email" id="email" required />
+                                </div>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="name">Subject</label>
+                                <input type="text" className="form-control" name="subject" id="subject" required />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="name">Message</label>
+                                <textarea className="form-control" name="message" rows="10" required></textarea>
+                            </div>
+                            <div className="my-3">
+                                <div className="loading">Loading</div>
+                                <div className="error-message"></div>
+                                <div className="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div className="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div> */}
+
                         </div>
-                        <div className="form-group">
-                            <label htmlFor="name">Message</label>
-                            <textarea className="form-control" name="message" rows="10" required></textarea>
-                        </div>
-                        <div className="my-3">
-                            <div className="loading">Loading</div>
-                            <div className="error-message"></div>
-                            <div className="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div className="text-center"><button type="submit">Send Message</button></div>
-                        </form>
-                    </div>
 
                     </div>
-
-                </div>
                 </section>
 
             </main>
