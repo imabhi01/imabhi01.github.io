@@ -337,7 +337,7 @@ export default function MainSection() {
                             <h4>Call:</h4>
                             <p>+977-9842036673</p>
                         </div>
-                        <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2167.892016509862!2d85.37819505321234!3d27.72484870997885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bbbefe2da35%3A0x3196e9ef7a7daf80!2sMnemonic%20Modern%20Academy!5e0!3m2!1sen!2snp!4v1640665830602!5m2!1sen!2snp" frameborder="0" style={{ border:'0', width: '100%', height: '290px' }} allowfullscreen="" loading="lazy"></iframe>
+                        <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2167.892016509862!2d85.37819505321234!3d27.72484870997885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bbbefe2da35%3A0x3196e9ef7a7daf80!2sMnemonic%20Modern%20Academy!5e0!3m2!1sen!2snp!4v1640665830602!5m2!1sen!2snp" style={{ border:'0', width: '100%', height: '290px' }} loading="lazy"></iframe>
                         </div>
                     </div>
 
@@ -345,20 +345,20 @@ export default function MainSection() {
                         <form action="/#" method="post" className="php-email-form">
                         <div className="row">
                             <div className="form-group col-md-6">
-                            <label for="name">Your Name</label>
+                            <label htmlFor="name">Your Name</label>
                             <input type="text" name="name" className="form-control" id="name" required />
                             </div>
                             <div className="form-group col-md-6">
-                            <label for="name">Your Email</label>
+                            <label htmlFor="name">Your Email</label>
                             <input type="email" className="form-control" name="email" id="email" required />
                             </div>
                         </div>
                         <div className="form-group">
-                            <label for="name">Subject</label>
+                            <label htmlFor="name">Subject</label>
                             <input type="text" className="form-control" name="subject" id="subject" required />
                         </div>
                         <div className="form-group">
-                            <label for="name">Message</label>
+                            <label htmlFor="name">Message</label>
                             <textarea className="form-control" name="message" rows="10" required></textarea>
                         </div>
                         <div className="my-3">

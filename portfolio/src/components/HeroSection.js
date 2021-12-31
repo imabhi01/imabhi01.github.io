@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
 
 export default function HeroSection() {
     return (
@@ -6,8 +7,18 @@ export default function HeroSection() {
             {/* <!-- ======= Hero Section ======= --> */}
             <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
                 <div className="hero-container" data-aos="fade-in">
-                <h1>Abhishek Chaudhary</h1>
-                <p>I'm <span className="typed" data-typed-items="Developer, Freelancer, Designer"></span></p>
+                <h1>Hello, I'm Abhishek</h1>
+                <p>
+                        My super powers?
+                        <Typewriter
+                            options={{
+                                strings: ['Freelancing', 'Coding Softwares', 'Desigining'],
+                                autoStart: true,
+                                loop: true,
+                            }} 
+                        />
+                    
+                   </p>
                 </div>
             </section>
             {/* <!-- End Hero --> */}
