@@ -7,7 +7,7 @@ export default function HeroSection() {
             <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
                 <div className="hero-container" data-aos="fade-in">
                 <h1>Hello, I'm Abhishek</h1>
-                <p>
+                <span style={{ 'fontSize': '24px', 'color': '#fff', ' marginBottom': '50px','fontFamily': 'poppins,sans-serif' }}>
                     <Typewriter
                         options={{
                             strings: ['Coding Software', 'Freelancing', 'Designing'],
@@ -16,7 +16,7 @@ export default function HeroSection() {
                         }} 
                     />
                     is my super power.
-                   </p>
+                   </span>
                 </div>
             </section>
         </div>
