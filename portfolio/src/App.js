@@ -1,11 +1,16 @@
-// import './App.css';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import MainSection from './components/MainSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">TEST
-      </header>
-    </div>
+    <>
+      <Header />
+      <HeroSection />
+      <MainSection />
+      <Footer />
+    </>
   );
 }
 
