@@ -150,7 +150,7 @@ export default function MainSection() {
                             <img src="assets/img/portfolio/filili.png" className="img-fluid" alt="" />
                             <div className="portfolio-links">
                                 <a href="assets/img/portfolio/filili.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                                <a href="/" title="More Details"><i className="bx bx-link"></i></a>
                             </div>
                             </div>
                         </div>

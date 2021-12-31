@@ -8,6 +8,9 @@ function App() {
     <>
       <Header />
       <HeroSection />
+
+    
+
       <MainSection />
       <Footer />
     </>
