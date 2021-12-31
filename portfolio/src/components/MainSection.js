@@ -9,8 +9,10 @@ export default function MainSection() {
                     <div className="container">
                         <div className="section-title">
                             <h2>About</h2>
-                            <p>Full stack web developer with @php, @laravel, @vuejs, @reactjs, @nodejs, @docker, @mongodb, @mysql. Besides programming, I love to listen to music, play guitar <span className="iconify" data-icon="fxemoji:guitar"></span>, play games <span className="iconify" data-icon="emojione-v1:video-game"></span>
-                                and read books and blogs <span className="iconify" data-icon="noto-v1:books"></span>
+                            <p>Full stack web developer with @php, @laravel, @vuejs, @reactjs, @nodejs, @docker, @mongodb, @mysql. Besides programming, I love to listen to music, play guitar 
+                                <span className="iconify" data-icon="fxemoji:guitar"></span>, play pc games 
+                                <span className="iconify" data-icon="emojione-v1:video-game"></span>
+                                , and read books  <span className="iconify" data-icon="noto-v1:books"></span>, blogs.
                             </p>
                         </div>
 
@@ -20,9 +22,9 @@ export default function MainSection() {
                             <div className="row">
                             <div className="col-lg-6">
                                 <ul>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a title="github" href="https://imabhi01.github.io/">https://imabhi01.github.io/</a></span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+977-9842036673</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kathmandu, Nepal</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a title="github" href="https://imabhi01.github.io/">https://imabhi01.github.io/</a></span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+977-9842036673</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kathmandu, Nepal</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
@@ -49,9 +51,8 @@ export default function MainSection() {
                         <div className="section-title">
                         <h2>Resume</h2>
                         <p>Full Stack Software developer offering 5 years in IT industry with focus on product design and development. Extensive knowledge of Web development with practical software engineering experience.</p>
-                        <p>Please download my resume from <a href="resume.docx" target="_blank" rel="noopener noreferrer">here.</a></p>
+                        <p>Please download my resume from <a href="/resume.docx" rel="noopener noreferrer">here.</a></p>
                         </div>
-
                         <div className="row">
                         <div className="col-lg-6" data-aos="fade-up">
                             <h3 className="resume-title">Sumary</h3>
@@ -269,7 +270,7 @@ export default function MainSection() {
                                 <div className="email">
                                     <i className="bi bi-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>iamdev.abhishek@gmail.com</p>
+                                    <p><a href="mailto: iamdev.abhishek@gmail.com">iamdev.abhishek@gmail.com</a></p>
                                 </div>
 
                                 <div className="phone">

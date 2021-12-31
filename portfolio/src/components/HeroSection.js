@@ -13,7 +13,7 @@ export default function HeroSection() {
                             strings: ['Coding Software', 'Freelancing', 'Designing'],
                             autoStart: true,
                             loop: true,
-                        }} 
+                        }}
                     />
                     is my super power.
                    </span>
