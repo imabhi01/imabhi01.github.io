@@ -15,7 +15,6 @@ export default function MainSection() {
                                 , and read books  <span className="iconify" data-icon="noto-v1:books"></span>, blogs.
                             </p>
                         </div>
-
                         <div className="row">
                         <div className="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
                             <h3>Full Stack Web Developer.</h3>
