@@ -5,7 +5,6 @@ export default function Header() {
         <div>
             <header id="header">
                 <div className="d-flex flex-column">
-
                 <div className="profile">
                     <img src="assets/img/profile-img.jpg" alt="abhishek chaudhary" className="img-fluid rounded-circle" />
                     <h1 className="text-light"><a href="index.html">Abhishek Chaudhary</a></h1>
