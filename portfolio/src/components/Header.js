@@ -16,7 +16,6 @@ export default function Header() {
                     <a title="linkedin" href="https://www.linkedin.com/in/abhishek-chaudhary-504124105/" target="_blank" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                     </div>
                 </div>
-
                 <nav id="navbar" className="nav-menu navbar">
                     <ul>
                     <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
