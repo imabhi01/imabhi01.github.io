@@ -39,14 +39,11 @@ export default function MainSection() {
 
                     </div>
                 </section>
-
                 <section id="skills" className="skills section-bg">
                     <SkillBars />
                 </section>
-
                 <section id="resume" className="resume">
                     <div className="container">
-
                         <div className="section-title">
                         <h2>Resume</h2>
                         <p>Full Stack Software developer offering 5 years in IT industry with focus on product design and development. Extensive knowledge of Web development with practical software engineering experience.</p>
@@ -123,25 +120,21 @@ export default function MainSection() {
                         </div>
                     </div>
                 </section>
-
                 <section id="portfolio" className="portfolio section-bg">
                     <div className="container">
-
                         <div className="section-title">
                         <h2>Portfolio</h2>
                         <p>I would like to showcase some of my good works and projects that I have developed during my career.</p>
                         </div>
-
                         <div className="row" data-aos="fade-up">
-                        <div className="col-lg-12 d-flex justify-content-center">
-                            <ul id="portfolio-flters">
-                            <li data-filter="*" className="filter-active">All</li>
-                            <li data-filter=".filter-app">PWA</li>
-                            <li data-filter=".filter-web">Web App</li>
-                            </ul>
+                            <div className="col-lg-12 d-flex justify-content-center">
+                                <ul id="portfolio-flters">
+                                <li data-filter="*" className="filter-active">All</li>
+                                <li data-filter=".filter-app">PWA</li>
+                                <li data-filter=".filter-web">Web App</li>
+                                </ul>
+                            </div>
                         </div>
-                        </div>
-
                         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -206,19 +199,16 @@ export default function MainSection() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap shadow-sm">
-                            <img src="assets/img/portfolio/invoices.png" className="img-fluid" alt="" />
-                            <div className="portfolio-links">
-                                <a href="assets/img/portfolio/invoices.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
+                                <img src="assets/img/portfolio/invoices.png" className="img-fluid" alt="" />
+                                <div className="portfolio-links">
+                                    <a href="assets/img/portfolio/invoices.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                                </div>
                             </div>
                         </div>
-
                         </div>
-
                     </div>
                 </section>
-
                 <section id="services" className="services">
                 <div className="container">
 
@@ -247,7 +237,6 @@ export default function MainSection() {
 
                 </div>
                 </section>
-
                 <section id="contact" className="contact">
                     <div className="container">
 
@@ -316,7 +305,6 @@ export default function MainSection() {
 
                     </div>
                 </section>
-
             </main>
         </div>
     )
