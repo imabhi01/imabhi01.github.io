@@ -28,9 +28,9 @@ export default function MainSection() {
                             </div>
                             <div className="col-lg-6">
                                 <ul>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E. Computer Science</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>iamdev.abhishek@gmail.com</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E. Computer Science</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>iamdev.abhishek@gmail.com</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                 </ul>
                             </div>
                             </div>
